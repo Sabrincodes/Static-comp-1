@@ -37,8 +37,57 @@ img {
 
 
 
+.my-name {
+  flex:left;
+  color: white;
+  margin-left: 30px;
+  margin-top: 35px;
+  }
 
+.para {
+  flex:left;
+  margin-left: 30px;
+  margin-top: 1.5em;
+  font-size: 2em
+  padding:bottom: 4px;
+  
+  }
 
+}
+
+.my-resume  {
+  flex:left;
+  margin-left: 30px;
+  color:white;
+}
+
+/*.contact {
+  padding-left: 5px;
+}*/
+
+.cogs {
+   font-size: 2em;
+  color: white;
+  width: 11%;
+  padding-top: 10px;
+
+}
+
+.address-card {
+  display:flex;
+  margin-right: 20px;
+
+ 
+  width: 11%;
+  display: inline;
+
+}
+
+h2  {
+   /*flex:left;*/
+  margin-left: 30px;
+  color:white;
+}
 
 .fa-align-center::before {
   font-size: 1.5rem;
@@ -46,20 +95,74 @@ img {
 
 }
 
-.far fa-barcode:: before {
-  font-size: 2rem;
+.fas fa-infinity ::before {
+   font-size: 2em;
   color: white;
+  width: 25%;
 
 }
 
-.fab fa-ethereum:: before {
-  font-size: 2rem;
+.fa-barcode:: before {
+  font-size: 1.5rem;
   color: white;
+}
+
+/*.fa-ethereum :: before {
+  font-size: 2em;
+  color: white;
+  width: 25%;
+
+}*/
+
+.ethereum {
+  font-size: 2em;
+  color: white;
+  width: 25%;
+
 
 }
 
+.angle-right {
+  display:flex;
+  flex: right;
 
-.three-dots {
+}
+
+.angle-left {
+
+}
+.fas fa-laptop"></i>
+
+.arrow-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70% auto;
+}
+
+div {
+    display: block;
+}
+
+.arrow-btns {
+    display: inline;
+    width: 3em;
+    margin: 15%;
+}
+
+div {
+    display: block;
+}
+
+
+
+ 
+
+
+
+
+
+
 
  /* height: 1px;
   width:1px;*/
@@ -115,7 +218,7 @@ h2 {
 .box4 {
   /*grid-area: box4;*/
   display: flex;
-  background-color: #202f3e;
+  background-color: #105a92;
   /* background-image: url('images/ethereum.svg');*/
   justify-content: center;
   align-items: center;
@@ -130,7 +233,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #01060f; /*#44a8c5*/
+  background-color: #44a8c5; /*#44a8c5*/
   /*background-image: url('images/infinity.svg');*/
   /* background-size: 20%;
    background-repeat: no-repeat; */
@@ -176,7 +279,7 @@ h2 {
   justify-content: center;
   align-items: center;
   /*  grid-area: box9;*/
-  background-color: #202f3e;
+  background-color: #8a8989;
   /* background-image: url('');*/
   /* background-repeat: no-repeat;
   background-size: 20%; */
